@@ -11,6 +11,9 @@ package classes;
  */
 public class Minuman extends Menu{
     
-    public Minuman (String nama_toping, double harga) { }
-    
+    public Minuman (String nama_toping, double harga) {
+        setNama_menu(nama_minuman);
+        setHarga(harga);
+        setKategori("Minuman");
+    }
 }
